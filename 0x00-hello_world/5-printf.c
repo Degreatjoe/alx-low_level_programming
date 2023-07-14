@@ -1,10 +1,12 @@
 #include <stdio.h>
 /*
- * main- the entry point- a programme that prints in printf function
- * return: 0 (Success)
-*/
+ * "main" - entry point
+ *
+ * "Retun": Always 0
+ */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, ");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
