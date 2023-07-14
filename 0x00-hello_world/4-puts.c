@@ -3,11 +3,10 @@
  * main - the entry point to the programme that prints out using puts function
  *
  */
-int main(void)
+int main (void)
 {
-	char str[] = "\"Programming is like building a multilingual puzzle";
-	puts (str);
-
+	puts ("\"Programming is like building a multilingual puzzle");
 	return (0);
-/* * return: 0 (success)*/
 }
+/* * return: 0 (success)*/
+
