@@ -4,6 +4,9 @@
 /*
  * main -  a function that creates an array of chars,
  * and initializes it with a specific char.
+ *
+ * creat_array - to creat an array of characters
+ *
  * Return ; 0
  */
 char *create_array(unsigned int size, char c)
@@ -13,7 +16,7 @@ char *create_array(unsigned int size, char c)
 
 	add_mal = malloc(size * sizeof(char));
 
-	for (count = 0; count < size; count ++)
+	for (count = 0; count < size; count++)
 	{
 		add_mal[count] = c;
 	}
