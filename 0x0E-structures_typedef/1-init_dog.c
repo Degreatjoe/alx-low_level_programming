@@ -7,7 +7,6 @@
  * @age: the age of the dog
  * @owner: the name of the owner of the dfog
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
