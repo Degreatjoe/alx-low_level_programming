@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "main.h"
+#include <stdlib.h>
+/*
+ * main -  a function that creates an array of chars,
+ * and initializes it with a specific char.
+ * Return ; 0
+ */
+char *create_array(unsigned int size, char c)
+{
+	char *add_mal;
+	unsigned int count;
+
+	add_mal = malloc(size * sizeof(char));
+
+	for (count = 0; count < size; count ++)
+	{
+		add_mal[count] = c;
+	}
+	return (add_mal);
+}
+
