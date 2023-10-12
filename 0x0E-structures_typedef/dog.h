@@ -10,9 +10,9 @@
  */
 struct dog
 {
-	char * name;
+	char *name;
 	float age;
-	char * owner;
+	char *owner;
 };
 /**
  * dog_i - typedef for struct dog
