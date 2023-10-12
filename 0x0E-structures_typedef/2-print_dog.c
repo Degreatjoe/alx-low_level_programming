@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <dog.h>
+#include "dog.h"
 
 /**
  * print_dog - prints the dog info and determine if there is a null
