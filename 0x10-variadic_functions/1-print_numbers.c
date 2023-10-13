@@ -20,13 +20,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	/* loop through/access all arguments stored in the valist */
 	for (i =0; i < n; i++)
 	{
-		printf("%d", va_args(my_num, unsigned int));
+		printf("%d", va_arg(my_num, unsigned int));
 
 		if (i < (n - 1) && separator != NULL)
 		{
 			printf("%s", separator);
 		}
 	}
-	va_end(my_nums);
+	va_end(my_num);
 	printf("\n");
 }
