@@ -5,10 +5,10 @@
  * @n: number of arguments
  * Return: 0
  */
-int sum_them_all(const unsigned int n,...)
+int sum_them_all(const unsigned int n, ...)
 {
 	/* creating va_list to store the variable argument list */
-	va_list my_num;
+	va_list my_nums;
 	unsigned int i;
 	int sum;
 
@@ -17,12 +17,12 @@ int sum_them_all(const unsigned int n,...)
 	sum =0;
 
 	/* init valist for the number of arguments */
-	va_start(my_num, n);
+	va_start(my_nums, n);
 
 	/* loop through/access all arguments stored in the valist */
 	for (count = 0; count < n; count++)
-		sum += va_arg(my_num, int);
+		sum += va_arg(my_nums, int);
 
-	va_end(my_num);
+	va_end(my_nums);
 	return (sum);
 }
