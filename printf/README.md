@@ -1,1 +1,0 @@
-A custom made printf function that replicates the original printf.
