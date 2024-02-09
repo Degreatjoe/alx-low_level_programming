@@ -9,7 +9,7 @@
  */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
-	unsigned long int number;
+	unsigned long int num;
 	unsigned int a;
 
 	num = 1;
